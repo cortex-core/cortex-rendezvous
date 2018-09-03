@@ -4,7 +4,7 @@
   "description": "Rendezvous Server Service",
   "main": "service.js",
   "scripts": {
-    "test": "echo \"No test declared yet\""
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/turgutbasar/cortex-rendezvous/issues"
   },
-  "homepage": "https://github.com/turgutbasar/cortex-rendezvous#readme"
+  "homepage": "https://github.com/turgutbasar/cortex-rendezvous#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
