@@ -1,0 +1,19 @@
+{
+  "name": "cortex-rendezvous",
+  "version": "0.0.1",
+  "description": "Rendezvous Server Service",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"No test declared yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turgutbasar/cortex-rendezvous.git"
+  },
+  "author": "Basar Turgut",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/turgutbasar/cortex-rendezvous/issues"
+  },
+  "homepage": "https://github.com/turgutbasar/cortex-rendezvous#readme"
+}
