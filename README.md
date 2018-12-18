@@ -5,4 +5,4 @@ This piece of software fills the role of 3'rd party authority in centralized sid
 
 Build Status of Master:
 
-[![Build Status](https://travis-ci.com/turgutbasar/cortex-rendezvous.svg?branch=master)](https://travis-ci.com/turgutbasar/cortex-rendezvous)
+[![Build Status](https://travis-ci.com/cortex-core/cortex-rendezvous.svg?branch=master)](https://travis-ci.com/cortex-core/cortex-rendezvous)
