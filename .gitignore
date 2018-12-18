@@ -61,4 +61,7 @@ typings/
 .next
 
 # .idea
-.idea
+.idea/
+
+# .idea
+.DS_Store
