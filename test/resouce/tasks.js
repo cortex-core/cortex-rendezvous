@@ -18,7 +18,7 @@ describe('Rendezvous Tasks Resource Tests', function() {
     before(function(){
         auth_stub = sinon.stub(Auth.prototype, 'authorize');
         auth_stub.callsFake(function(req) {
-            return new Promise(function (resolve, reject) {
+            return new Promise(function(resolve, reject) {
                 let response = { status: 200 };
                 if (req == "some_valid_token") {
                     resolve(response);

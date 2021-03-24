@@ -1,7 +1,8 @@
 const express = require('express');
 
 class BaseResource {
-  constructor() {
+  constructor(context) {
+    this.context = context;
     this.router = express.Router();
   }
   register() {

@@ -3,8 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const validator = require('express-validator');
 const log = require('./src/logging/log');
-const Blockchain = require('./src/blockchain/api');
-
+const AuthClient = require('./src/auth/auth');
+const ChainClient = require('./src/chain/chain');
 
 let app = express();
 
@@ -14,10 +14,13 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(validator());
 
-init_resources(app, new Blockchain());
- 
-app.listen(8080, function() {
-    log.info("API listening 8080");
+init_resources(app, {
+    chain : new ChainClient(),
+    auth : new AuthClient()
+});
+
+app.listen(8081, function() {
+    log.info("Gateway listening 8081");
 });
 
 module.exports = app;
